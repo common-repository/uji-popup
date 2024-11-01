@@ -1,0 +1,307 @@
+li.menu-icon-popups .wp-menu-image a img { display: none; }
+#icon-popups, #icon-post.icon32-posts-popups, #icon-edit.icon32-posts-popups { background: transparent url(../images/icon_popups_32.png) no-repeat left top; }
+/*
+#menu-posts-popups div.wp-menu-image  { background: url(../images/icon_popups_16.png) no-repeat left top; width: 20px; height: 16px; margin-left: 7px; margin-top: 7px; background-position: left 0!important; }
+#menu-posts-popups:hover div.wp-menu-image, #menu-posts-popups .wp-has-current-submenu div.wp-menu-image  { background-position: left -16px!important; }*/
+
+
+/* =============================================================================
+   Add Content Panel
+   ========================================================================== */
+
+.posttypediv,.taxonomydiv {
+    overflow: initial!important;
+}
+
+.tab-content {
+    overflow: hidden!important;
+}
+
+#postexcerpt_wp4 {
+    margin-top: 10px;
+}
+
+#wp-excerpt-editor-container {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+
+#cont_tab a{
+	text-decoration: none;
+}
+.tab-space{
+	margin-bottom: 10px;
+}
+.tab-content .options_group {
+    border-bottom: 1px solid #DFDFDF;
+    border-top: 1px solid white;
+    padding: 10px 0;
+}
+.tab-content .options_group:first-child {
+    border-top: 0 none;
+}
+
+
+.tab-content .dimensions_field .wrap input {
+    margin-right: 0.2%;
+    width: 6.6%;
+}
+.tab-content .dimensions_field .wrap .last {
+    margin-right: 0;
+}
+.tab-content label,
+.tab-content .tab-label{
+    float: left;
+    padding: 0;
+    width: 170px;
+}
+
+.tab-content .checkbox, .tab-content .radio {
+    margin: 7px 0;
+    vertical-align: middle;
+    width: auto;
+}
+
+.tab-content .short {
+    width: 20%!important;
+}
+.tab-content .medium {
+    width: 40%!important;
+}
+
+.tab-content .description {
+    margin: 0 0 0 7px;
+    padding: 0;
+}
+
+.tab-content p {
+    margin: 9px 0;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0 0 9px;
+    padding: 5px 9px;
+}
+
+.tab-content p:after, .tab-content p:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.side-content{
+	overflow: hidden!important;
+}
+.side-content .howto{
+	float: none;
+	clear: both;
+}
+#dp1, #dp2, #wi1{
+	width: 250px;
+	float: none;
+	clear: both;
+	position: relative;
+}
+#wi1{
+	padding-top: 10px;
+}
+.datap-label{
+	width: 70px!important;
+	line-height: 26px;
+
+}
+.size-label{
+	width: 130px!important;
+	line-height: 30px;
+}
+#datapick1, #datapick2{
+	width: 110px;
+	float: left;
+}
+#width1{
+	width: 40px;
+	float: left;
+}
+.chkbox{
+	margin: 40px 0 0 0;
+	float: none;
+	clear: both;
+}
+.chkbox2{
+	margin: 20px 0 0 0;
+	float: none;
+	clear: both;
+}
+#wi1,
+.chkbox2{
+	border-bottom: 1px solid #dfdfdf;
+	padding-bottom: 10px;
+}
+
+.chkbox2 p{
+	padding: 0;
+	margin: 0;
+	line-height: 15px;
+}
+#wi1 span,
+.chkbox2 p label{
+	line-height: 25px
+}
+
+.chkbox label{
+	line-height: 15px;
+}
+.dclear{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #b90000;
+	font-size: 12px;
+	font-weight: bold;
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 55px;
+}
+
+.colorpicker .add-on{
+	display: block;
+}
+.colorpicker .span1{
+	float: left;
+	margin-left: 30px;
+}
+
+.select2 p{
+    padding: 0 0 10px 0;
+}
+.select2 p label{
+	width: 110px!important;
+}
+
+/* =============================================================================
+   Menu Pages
+   ========================================================================== */
+
+#nav-menus-frame {
+    margin-left: 10px!important;
+    margin-top: 10px!important;
+}
+
+#wpbody-content #menu-settings-column {
+    width: 100%!important;
+    margin-left: 0px!important;
+
+}
+
+#poststuff #post-body.columns-2 #side-sortables{
+    width: 100%!important;
+}
+
+.control-section .accordion-section-title {
+    background: #EEF7FF;
+}
+
+#post-body.columns-2 #side-sortables {
+    min-height: auto;
+}
+
+/* =============================================================================
+   Admin Terget Pages
+   ========================================================================== */
+
+#wpbody-content #post-body.columns-2 #_see_show_cust_sub #side-sortables {
+    width: 99.8%!important;
+}
+
+.selected-posts{
+    color: #23282d;
+    background: #EEF7FF;
+    border: 1px solid #dfdfdf;
+    padding: 0 20px;
+    margin: 20px 0 5px 0!important;
+}
+
+.selected-posts span{
+    font-weight: bold;
+}
+
+.selected-posts span a{
+    margin: 1px 0 0 -20px;
+}    
+    
+ /* ============================================================
+  COMMON
+============================================================ */
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* ============================================================
+  SWITCH 1 - ROUND
+============================================================ */
+input.cmn-toggle-round + label {
+/*  float: none!important;  */
+  padding: 2px;
+  width: 50px!important;  
+  height: 22px;
+  background-color: #dddddd;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  border-radius: 22px;
+}
+input.cmn-toggle-round + label:before, input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+input.cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  border-radius: 22px;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s;
+}
+input.cmn-toggle-round + label:after {
+  width: 23px;
+  background-color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: margin 0.4s;
+  -moz-transition: margin 0.4s;
+  -o-transition: margin 0.4s;
+  transition: margin 0.4s;
+}
+input.cmn-toggle-round:checked + label:before {
+  background-color: #8ce196;
+}
+input.cmn-toggle-round:checked + label:after {
+  margin-left: 28px;
+}
